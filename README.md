@@ -1,6 +1,10 @@
 # WBPFinal
  Web Based Programming FInal
 
+Change 3
+
+Updated styling. Included more text shadows and adjusted footer size
+
 Change 2
 
 Fixed the issues with nav bard and added table to work history.
