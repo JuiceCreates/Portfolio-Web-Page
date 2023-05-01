@@ -246,3 +246,7 @@ footer {
     align-items: center;
     gap: 5rem;
 }
+
+#map-container {
+    text-align: center;
+}
