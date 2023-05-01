@@ -18,7 +18,8 @@ body {
 
 header {
     color: #ffffff;
-    background-image: url(images/skybeach.png);
+    background-color: #666666;
+    background-image: url();
     background-repeat: no-repeat;
     background-position: initial;
     text-align: center;
@@ -67,7 +68,8 @@ section {
 }
 
 section h2 {
-    text-shadow: 1px 1px #ffffff;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px #000000;
     text-align: center;
     padding-right: 115px;
     padding-left: 100px;
@@ -167,3 +169,80 @@ footer {
     box-shadow: 0 0 10px #fff;
 }
 
+/* */
+
+
+.containerleft {
+    float: left;
+    width: 500px;
+    height: 500px;
+    perspective: 800px;
+    padding-right: 102px;
+    padding-left: 75px;
+}
+
+.containerright {
+    float: right;
+    width: 500px;
+    height: 500px;
+    perspective: 800px;
+    padding-right: 102px;
+    padding-left: 75px;
+}
+
+
+.card {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.containerleft:hover > .card,
+.containerright:hover > .card {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.front1,
+.back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front1 {
+    background-image: url(images/selfie.jpeg);
+    background-size: contain;
+}
+
+.front2
+  {
+    background-image: url();
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front2 {
+    background-image: url(images/coding.jpg);
+    background-size: cover;
+}
+
+.back {
+    background: linear-gradient(70deg, #ffffff, #747474);
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
