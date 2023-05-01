@@ -1,6 +1,10 @@
 # WBPFinal
  Web Based Programming FInal
 
+Change 4
+
+Updated footer including linkts to social medias. As well as adjusted other footer components
+
 Change 3
 
 Updated styling. Included more text shadows and adjusted footer size
