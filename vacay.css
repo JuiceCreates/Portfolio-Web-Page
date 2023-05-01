@@ -1,0 +1,141 @@
+body {
+    background-color: #ffffff;
+    margin: auto;
+    background-image: linear-gradient(to bottom, #B4CABD, #042840);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    background-color: #ffffff;
+    width: 80%;
+    min-width: 1200px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+}
+
+header {
+    color: #ffffff;
+    background-image: url(images/skybeach.png);
+    background-repeat: no-repeat;
+    background-position: initial;
+    text-align: center;
+    height: 120px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    background-color: #B4CABD;
+    overflow: auto;
+    height: auto;
+}
+
+header h1 {
+    text-shadow: 3px 3px #000000;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+nav {
+    background-color: #1D7487;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+    border-top: solid;
+    border-bottom: solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: aqua;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom:50px;
+    border: solid;
+    height: 350px;
+}
+
+section h2 {
+    text-shadow: 1px 1px #ffffff;
+    text-align: center;
+    padding-right: 115px;
+    padding-left: 100px;
+
+}
+
+section p {
+    font-size: 1.4em;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+section a {
+    margin-left: 100px;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+}
+
+form {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 6em 1fr;
+    width: 60%;
+    max-width: 30em;
+    padding: 5em;
+    margin: auto;
+}
+
+input[type="submit"] {
+    grid-column: 2;
+    width: 9em;
+}
+
+p {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.imgleft {
+    padding-top: 2%;
+    float: left;
+    padding-right: 102px;
+    padding-left: 75px;
+}
+.imgright {
+    padding-top: 2%;
+    float: right;
+    padding-left: 102px;
+    padding-right: 75px;
+}
+
+footer {
+    padding-top: 10px;
+    background-color: aqua;
+    text-align: center;
+    font-size: .7em;
+} 

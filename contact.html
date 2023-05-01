@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact Us</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="vacay.css">
+</head>
+<body>
+    <div id="wrapper">
+    <header class="headbar">
+        <h1>
+            Vacationing on the Emerald Coast
+        </h1>
+    </header>
+</body>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="hotels.html">Hotels</a>
+    <a href="food.html">Food</a>
+    <a href="ttd.html">Activities</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+<main>
+    <h4>
+        Submit any questions you may have here. Or you can request an example 
+        itinerary for your stay. Leave a short description of your interests 
+        and favorite foods and we will attempt to put together a fun time for
+        you and your family.
+    </h4>
+    <p>Required fields are marked with an asterisk *</p>
+    <form method="post" action="request.html">
+        <label for="myFName">*First Name:</label> 
+        <input type="text" name="myFName" id="myFName" required="required">
+        <label for="myLName">*Last Name:</label>
+        <input type="text" name="myLName" id="myLName" required="required">
+        <label for="myEmail">*E-Mail:</label>
+        <input type="email" name="myEmail" id="myEmail" required="required">
+        <label for="myPhone">Phone:</label>
+        <input type="tel" name="myPhone" id="myPhone" maxlength="12">
+        <label for="myDate">Date of Arrival:</label>
+        <input type="date" name="myDate" id="myDate">
+        <label for="myNights">Nights:</label>
+        <input type="number" name="myNights" id="myNights" min="1" max="14">
+        <label for="myComments">*Comments:</label>
+        <textarea name="myComments" id="myComments" rows="2" cols="30"></textarea>
+        <input id="mySubmit" type="submit" value="Submit">
+     </form>
+    <p>
+        (We do not schedule any activities, we just advise you of all of your possibilities!)
+    </p>
+</main>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="hotels.html">Hotels</a>
+    <a href="food.html">Food</a>
+    <a href="ttd.html">Activities</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+<footer><br>Copyright &copy;2022 Corey Williams
+    <br><a href="mailto:corey@williams.com">corey@williams.com</a>
+</footer>
+</div>
+</body>
+</html>
