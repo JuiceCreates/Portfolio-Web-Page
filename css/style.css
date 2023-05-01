@@ -216,7 +216,7 @@ footer {
 }
 
 .front1 {
-    background-image: url(images/selfie.jpeg);
+    background-image: url(/images/selfie.jpeg);
     background-size: contain;
 }
 
@@ -232,7 +232,7 @@ footer {
 }
 
 .front2 {
-    background-image: url(images/coding.jpg);
+    background-image: url(/images/coding.jpg);
     background-size: cover;
 }
 
