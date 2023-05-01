@@ -1,6 +1,10 @@
 # WBPFinal
  Web Based Programming FInal
 
+Change 2
+
+Fixed the issues with nav bard and added table to work history.
+Renamed portfolio page to Work History.
 
 Change 1 
 
