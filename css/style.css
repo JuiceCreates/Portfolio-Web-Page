@@ -65,7 +65,10 @@ nav a:link {
     text-decoration: none;
 }
 
-
+video {
+    display: block;
+    margin: 0 auto;
+}
 
 section {
     padding-top: 50px;
@@ -94,9 +97,11 @@ section a {
     margin-left: 100px;
 }
 
-img {
-    width: 500px;
-    height: 500px;
+.droneimg {
+    height: 540px;
+    width: 960px;
+    display: block;
+    margin: 0 auto;
 }
 
 form {
@@ -127,13 +132,17 @@ h4 {
     float: left;
     padding-right: 102px;
     padding-left: 75px;
+    width: 500px;
+    height: 500px;
 }
 
 .imgright {
     padding-top: 2%;
     float: right;
     padding-left: 102px;
-    padding-right: 75px;
+    padding-right: 75px; 
+    width: 500px;
+    height: 500px;
 }
 
 footer {
