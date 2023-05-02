@@ -1,6 +1,10 @@
 # WBPFinal
  Web Based Programming FInal
 
+Change 6
+
+Updated the home page with a audio player and non copywrite music
+
 Change 5
 
 Drone Work videos complete and formatted to fit the body
