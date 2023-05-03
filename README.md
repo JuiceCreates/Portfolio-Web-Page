@@ -1,6 +1,10 @@
 # WBPFinal
  Web Based Programming FInal
 
+Change 7
+
+Updated about me with less section. Index nested better. Removed links on About Me
+
 Change 6
 
 Updated the home page with a audio player and non copywrite music
