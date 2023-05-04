@@ -1,6 +1,10 @@
 # WBPFinal
  Web Based Programming FInal
 
+Change 8
+
+Updated about me with images, and started teh paragraphs about me
+
 Change 7
 
 Updated about me with less section. Index nested better. Removed links on About Me
