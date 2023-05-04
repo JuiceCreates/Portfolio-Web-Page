@@ -1,6 +1,10 @@
 # WBPFinal
  Web Based Programming FInal
 
+Change 9
+
+Updated aboutme.html
+
 Change 8
 
 Updated about me with images, and started teh paragraphs about me
