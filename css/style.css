@@ -261,7 +261,6 @@ table {
     transform: rotateY(180deg);
 }
 
-.front1,
 .back {
     height: 100%;
     width: 100%;
@@ -271,24 +270,27 @@ table {
     backface-visibility: hidden;
 }
 
-.front1 {
-    background-image: url(FIX THIS);
-    background-size: contain;
+.front1
+  {
+    background-image: url(../images/selfie.jpeg);
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;    
+    background-size: cover;
 }
 
 .front2
   {
-    background-image: url();
+    background-image: url(../images/coding.jpg);
     height: 100%;
     width: 100%;
     border-radius: 2rem;
     box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
     position: absolute;
     backface-visibility: hidden;
-}
-
-.front2 {
-    background-image: url(FIX THIS);
     background-size: cover;
 }
 
