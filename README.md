@@ -1,6 +1,10 @@
 # WBPFinal
  Web Based Programming FInal
 
+Change 11
+
+Fixed the social media image not showing bug.
+
 Change 10
 
 Removed the image links for front page. #FIX WITH PROPER LINK ON NEXT COMMIT
